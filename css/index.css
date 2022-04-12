@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f7f7f7;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 1180px;
+  height: 1310px;
+  margin: 39px auto 217px;
+}
+
+.container-l {
+  display: flex;
+  flex-direction: column;
+  width: 780px;
+ padding: 49px  40px 32px;
+  background: #FFFFFF;
+
+}
+
+.header {
+  width: 36px;
+  height: 6px;
+  background: #fd263f;
+  margin-bottom: 16px;
+}
+
+.time{
+  width: 136px;
+height: 20px;
+font-size: 14px;
+font-weight: 400;
+color: #666666;
+line-height: 20px;
+}
+
+
+
+
+/* 右边部分start */
+.container-r{
+  width: 380px;
+  background: #FFFFFF;
+}
